@@ -1,11 +1,11 @@
 <?php
 class Database{
  
-    // specify your own database credentials
+    //database credentials
     private $host = "localhost";
     private $db_name = "kseb_app";
     private $username = "root";
-    private $password = "emobitkallan";
+    private $password = "password";
     public $conn;
  
     // get the database connection
